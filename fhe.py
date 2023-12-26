@@ -27,17 +27,16 @@ plainText2 = 1
 encrypted2 = encrypt(plainText2)
 decrypted2 = decrypt(encrypted2)
 
-print "Plaintext1 is %d, encrypted1 is %d, decrypted1 is %d" % (plainText1, encrypted1, decrypted1)
+print ("Plaintext1 is %d, encrypted1 is %d, decrypted1 is %d" % (plainText1, encrypted1, decrypted1))
 
-print "Plaintext2 is %d, encrypted2 is %d, decrypted2 is %d" % (plainText2, encrypted2, decrypted2)
+print ("Plaintext2 is %d, encrypted2 is %d, decrypted2 is %d" % (plainText2, encrypted2, decrypted2))
 
 encryptedSum = encrypted1 + encrypted2
 decryptedSum = decrypt(encryptedSum)
 
-print "Encrypted sum is %d, decrypted sum is: %d" % (encryptedSum, decryptedSum)
+print ("Encrypted sum is %d, decrypted sum is: %d" % (encryptedSum, decryptedSum))
 
 encryptedProduct = encrypted1 * encrypted2
 decryptedProduct = decrypt(encryptedProduct)
 
-print "Encrypted product is %d, decrypted product is: %d" % (encryptedProduct, decryptedProduct)
-
+print ("Encrypted product is %d, decrypted product is: %d" % (encryptedProduct, decryptedProduct))
